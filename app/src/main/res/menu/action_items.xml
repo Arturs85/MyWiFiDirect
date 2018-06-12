@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/atn_direct_discover"
+    android:icon="@android:drawable/ic_menu_search"
+    android:title="discover"
+    app:showAsAction="ifRoom|withText" />
+
+<item
+    android:id="@+id/atn_direct_connect"
+    android:icon="@android:drawable/ic_menu_manage"
+    android:title="connect"
+    app:showAsAction="ifRoom|withText" />
+</menu>
